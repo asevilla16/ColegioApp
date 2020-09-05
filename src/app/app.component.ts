@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ColegioApp';
+
+  miPropiedad: String = "Colegio";
+
+  miEvento(){
+    this.miPropiedad = "Valor cambiado desde evento";
+  }
 }
